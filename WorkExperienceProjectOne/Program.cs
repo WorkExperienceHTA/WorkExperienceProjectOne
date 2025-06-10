@@ -9,6 +9,12 @@ Console.WriteLine("Hello, World!");
 int a = 10;
 Console.WriteLine(a);
 
+a = 15;
+Console.WriteLine(a);
+
+a = a + 5;
+Console.WriteLine(a);
+
 // Challenge: Create an integer variable called 'dog' and assign it the value 15. Print it to the console.
 // Code goes here...
 
@@ -20,7 +26,6 @@ Console.WriteLine(b);
 // Challenge: Create an integer variable called 'AMinusB' and assign it the value of 'a' minus 'b'.
 // Print it to the console.
 // Code goes here...
-
 
 // Arrays
 int[] c = { 1, 2, 3, 4, 5 };
@@ -46,12 +51,11 @@ else
     Console.WriteLine("b is not greater than 10");
 }
 
-
-
 // Function definition
 int Add(int x, int y)
 {
-    return x + y;
+    var answer = x + y;
+    return answer;
 }
 
 // Function call
@@ -68,3 +72,4 @@ Console.WriteLine($"The result of adding {f} and {g} is: {result}");
 // Challenge 2: Create a function that takes an array of integers and returns the sum of all elements.
 // Print the result to the console
 // Code goes here...
+
